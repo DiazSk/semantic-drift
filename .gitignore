@@ -125,3 +125,9 @@ BoilingFrog_SemanticDrift_Pipeline/outputs/
 
 # VSCode
 .vscode/
+
+# Cache and logs directories
+**/.cache/
+*.pkl
+*.npy
+*.log
