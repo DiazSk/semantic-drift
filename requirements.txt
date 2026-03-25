@@ -1,11 +1,29 @@
+# Core data handling
 pandas
 numpy
+
+# NLP metrics & embeddings
+sentence-transformers
+nltk
+rouge-score
+bert-score
+
+# Validation
+pydantic
+
+# Scientific computing
+scipy
+scikit-learn
+
+# Visualization
 matplotlib
 seaborn
-scikit-learn
-scipy
-networkx
-transformers
-textstat
+
+# Utilities
+tqdm
+python-Levenshtein
+ftfy
+watermark
+
+# Jupyter
 ipykernel
-aiohttp
