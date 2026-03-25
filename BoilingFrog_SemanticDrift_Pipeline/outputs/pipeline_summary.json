@@ -1,0 +1,64 @@
+{
+  "pipeline_version": "2.0-DE",
+  "run_timestamp": "2026-03-24 22:44:32",
+  "runtime_seconds": 146.5,
+  "data_fingerprint": "d5938717a66c",
+  "config": {
+    "data_path": "./data.json",
+    "output_dir": "./outputs",
+    "cache_dir": "./cache",
+    "log_dir": "./logs",
+    "col_type1": "human_original_text(type1)",
+    "col_type2": "llm_generated_text(type2)",
+    "col_type3": "human_paraphrased_text(type3)",
+    "col_type4": "llm_paraphrased_original_text(type4)-prompt-based",
+    "col_type5_1st": "llm_paraphrased_generated_text(type5)-1st",
+    "col_type5_3rd": "llm_paraphrased_generated_text(type5)-3rd",
+    "sbert_model": "all-mpnet-base-v2",
+    "sbert_batch_size": 64,
+    "bertscore_model": "bert-base-uncased",
+    "bertscore_batch_size": 256,
+    "weight_sbert": 0.6,
+    "weight_meteor": 0.2,
+    "weight_rouge": 0.2,
+    "parascore_threshold": 0.35,
+    "low_med_threshold": 0.35,
+    "med_high_threshold": 0.45,
+    "min_completeness_pct": 95.0,
+    "max_duplicate_pct": 5.0,
+    "min_token_length": 3,
+    "max_token_length": 500,
+    "seed": 42,
+    "device": "auto"
+  },
+  "dataset": {
+    "total_records": 16232,
+    "sources": {
+      "paws": 12102,
+      "mrpc": 3750,
+      "hlpc": 380
+    }
+  },
+  "validation": {
+    "valid": 16233,
+    "invalid": 0
+  },
+  "results": {
+    "SDS_hop_a_mean": 0.3403,
+    "SDS_hop_b_mean": 0.321,
+    "SDS_e2e_mean": 0.3979,
+    "SDS_anchor_mean": 0.5914,
+    "cumulative_additive": 0.6613,
+    "parascore_threshold": 0.35,
+    "pct_above_threshold_hop_a": 43.35,
+    "pct_above_threshold_e2e": 62.62,
+    "boiling_frog_multiplier": 1.89
+  },
+  "individual_metrics_e2e": {
+    "jaccard": 0.3929,
+    "rouge_l": 0.4549,
+    "meteor": 0.4789,
+    "sbert_cosine": "0.8686",
+    "edit_dist": 0.569
+  }
+}

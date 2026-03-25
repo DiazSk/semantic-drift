@@ -117,8 +117,8 @@ venv.bak/
 poetry.lock
 
 # Pipeline output/results directories (not input data)
-BoilingFrog_MultiModel_Pipeline/outputs/
-BoilingFrog_SemanticDrift_Pipeline/outputs/
+# BoilingFrog_MultiModel_Pipeline/outputs/
+# BoilingFrog_SemanticDrift_Pipeline/outputs/
 
 # macOS
 .DS_Store

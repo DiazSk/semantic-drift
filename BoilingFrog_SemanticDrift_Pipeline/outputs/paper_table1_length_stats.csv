@@ -1,0 +1,6 @@
+Metric,Source (T1),Paraphrase (T5-3rd),Delta
+Mean,20.84,18.24,-2.6
+Std. Dev.,23.89,31.85,7.95
+Min,4.0,2.0,-2.0
+Median,19.0,15.0,-4.0
+Max,444.0,853.0,409.0

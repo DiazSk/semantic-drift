@@ -1,0 +1,7 @@
+Text Type,Column,Completeness (%),Duplicates,Mean Tokens,Median Tokens,Min Tokens,Max Tokens,Std Tokens,Short (<3),Long (>500),Encoding Issues
+Human Original,Type_1,100.0,0,20.8,19.0,4,444,23.9,0,0,82
+LLM Generated,Type_2,100.0,0,20.2,18.0,4,654,29.9,0,16,59
+Human Paraphrased,Type_3,100.0,191,18.8,19.0,3,39,5.1,0,0,70
+LLM Paraphrased,Type_4,100.0,1,18.7,17.0,4,453,22.9,0,0,11
+LLM Iter-1,Type_5_1st,100.0,0,18.7,16.0,3,912,31.1,0,16,37
+LLM Iter-3,Type_5_3rd,100.0,0,18.2,15.0,2,853,31.8,1,17,29

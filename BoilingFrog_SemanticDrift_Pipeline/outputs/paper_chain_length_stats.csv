@@ -1,0 +1,7 @@
+Stage,Mean Tokens,Median Tokens
+Type 1 (Human),20.84,19.0
+Type 2 (LLM Gen),20.2,18.0
+Type 3 (Human Para),18.83,19.0
+Type 4 (LLM Para),18.7,17.0
+Type 5-1st,18.68,16.0
+Type 5-3rd,18.24,15.0

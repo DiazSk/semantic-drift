@@ -1,0 +1,5 @@
+Text Type,Column,Completeness (%),Duplicates,Mean Tokens,Median Tokens,Min Tokens,Max Tokens,Short (<3),Encoding Issues (sample)
+Human Original,Type_1,100.0,18102,273.8,183.0,6,5764,0,0
+Iter-1,Type_5_1st,100.0,32,226.5,137.0,1,1996,2,216
+Iter-2,Type_5_2nd,100.0,14,201.9,125.0,1,2561,7,236
+Iter-3,Type_5_3rd,100.0,24,186.1,117.0,1,6654,9,211

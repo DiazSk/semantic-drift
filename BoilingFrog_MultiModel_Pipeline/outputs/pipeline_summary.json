@@ -1,0 +1,59 @@
+{
+  "pipeline_version": "3.0-MultiModel",
+  "run_timestamp": "2026-03-24 23:13:29",
+  "runtime_seconds": 1544.0,
+  "config": {
+    "data_dir": "./output_json",
+    "output_dir": "./outputs",
+    "cache_dir": "./cache",
+    "log_dir": "./logs",
+    "col_type1": "human_original_text(type1)",
+    "col_type5_1st": "llm_paraphrased_generated_text(type5)-1st",
+    "col_type5_2nd": "llm_paraphrased_generated_text(type5)-2nd",
+    "col_type5_3rd": "llm_paraphrased_generated_text(type5)-3rd",
+    "sbert_model": "all-mpnet-base-v2",
+    "sbert_batch_size": 64,
+    "weight_sbert": 0.6,
+    "weight_meteor": 0.2,
+    "weight_rouge": 0.2,
+    "parascore_threshold": 0.35,
+    "low_med_threshold": 0.35,
+    "med_high_threshold": 0.45,
+    "min_completeness_pct": 95.0,
+    "min_token_length": 3,
+    "max_token_length": 2000,
+    "artifact_rouge_threshold": 0.05,
+    "artifact_sbert_threshold": 0.1,
+    "seed": 42,
+    "device": "auto"
+  },
+  "dataset": {
+    "total_records": 20595,
+    "domains": [
+      "CMV",
+      "ELI5",
+      "SCI",
+      "TLDR",
+      "WP",
+      "XSUM",
+      "YELP"
+    ],
+    "models": [
+      "chatgpt",
+      "dipper",
+      "dipper(high)",
+      "dipper(low)",
+      "palm",
+      "pegasus(full)",
+      "pegasus(slight)"
+    ]
+  },
+  "results": {
+    "SDS_hop_a": 0.6032,
+    "SDS_hop_b": 0.2922,
+    "SDS_hop_c": 0.2631,
+    "SDS_e2e": 0.6379,
+    "cumulative": 1.1584,
+    "threshold_multiplier": 3.31
+  }
+}
