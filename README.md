@@ -4,10 +4,6 @@
 
 This repository contains the analysis pipelines for quantifying semantic erosion in iterative LLM paraphrasing — a phenomenon we call the **Boiling Frog Effect**. Just as a frog won't react to slowly heated water, current AI text detectors fail to flag the gradual accumulation of semantic drift across paraphrase chains, even though each individual hop appears benign.
 
-**Authors:** Zaid Shaikh, Rahul Leonard Arun Kumar, Aryan Singh  
-**Advisor:** Prof. Shanu Sushmita  
-**Affiliation:** Khoury College of Computer Sciences, Northeastern University
-
 ---
 
 ## Research Context
@@ -284,4 +280,4 @@ Both pipelines enforce strict quality gates throughout:
 
 ## License
 
-This project is part of ongoing research at Northeastern University. Please contact the authors for usage and citation information.
+This project is part of ongoing research, Please contact the authors for usage and citation information.
