@@ -10,7 +10,7 @@ This repository contains the analysis pipelines for quantifying semantic erosion
 
 Paraphrase attacks — where LLMs iteratively rewrite text to evade plagiarism and AI text detectors — represent a growing threat to academic integrity, copyright protection, and content authenticity. Prior work (Krishna et al., 2023; Sadasivan et al., 2023) demonstrated that detection accuracy collapses from over 90% to near random chance after paraphrasing. Yet no existing benchmark systematically evaluates *how* semantic meaning erodes across these chains.
 
-This project builds on **PADBen** (Paraphrase Attack Detection Benchmark), a comprehensive benchmark from the GenAI Research Lab at Northeastern University designed to evaluate AI text detectors against paraphrase attacks across 4 tasks, diverse datasets, and standardized evaluation protocols. PADBen curates 5 text types per record — from original human text through LLM-generated, human-paraphrased, and multi-iteration LLM-paraphrased variants — drawn from MRPC, PAWS, and HLPC source corpora.
+This project builds on **PADBen** (Paraphrase Attack Detection Benchmark), a comprehensive benchmark designed to evaluate AI text detectors against paraphrase attacks across 4 tasks, diverse datasets, and standardized evaluation protocols. PADBen curates 5 text types per record — from original human text through LLM-generated, human-paraphrased, and multi-iteration LLM-paraphrased variants — drawn from MRPC, PAWS, and HLPC source corpora.
 
 We extend PADBen's framework with a second corpus (**Ship of Theseus**) spanning 7 domains and 7 paraphrase models, enabling cross-domain and cross-model generalizability analysis.
 
@@ -270,7 +270,7 @@ Both pipelines enforce strict quality gates throughout:
 
 ## Key References
 
-- **PADBen:** Paraphrase Attack Detection Benchmark — GenAI Research Lab, Khoury College, Northeastern University
+- **PADBen:** Paraphrase Attack Detection Benchmark
 - **ParaScore:** Shen et al., "ParaScore: Automatic Evaluation for Paraphrase Generation," EMNLP 2022
 - **DIPPER:** Krishna et al., "Paraphrasing Evades Detectors of AI-Generated Text, but Retrieval Is an Effective Defense," NeurIPS 2023
 - **RAID:** Dugan et al., "RAID: A Shared Benchmark for Robust Evaluation of Machine-Generated Text Detectors," ACL 2024
@@ -280,4 +280,4 @@ Both pipelines enforce strict quality gates throughout:
 
 ## License
 
-This project is part of ongoing research, Please contact the authors for usage and citation information.
+This project is part of ongoing research. Please contact the authors for usage and citation information.
