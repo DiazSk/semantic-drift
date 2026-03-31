@@ -1,7 +1,7 @@
 {
   "pipeline_version": "3.0-MultiModel",
-  "run_timestamp": "2026-03-24 23:13:29",
-  "runtime_seconds": 1544.0,
+  "run_timestamp": "2026-03-30 19:45:05",
+  "runtime_seconds": 1554.5,
   "config": {
     "data_dir": "./output_json",
     "output_dir": "./outputs",
